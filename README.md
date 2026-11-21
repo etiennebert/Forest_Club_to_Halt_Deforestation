@@ -1,221 +1,58 @@
-[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.23825686.svg)](https://doi.org/10.5281/zenodo.23825686)
+# Forest Club — model, runs and figures
 
+Code and results behind *The Forest Club*: a trade-based club in which members hold their forest at its 2019 extent, are deemed compliant with the EU Deforestation Regulation, and apply a border charge to the land-based commodities they import from non-members. The membership game is run on the GTAP-AEZ v7 computable general equilibrium model (GEMPACK), 42 regions × 35 sectors × 18 agro-ecological zones, with the GTAP Data Base aggregation of `2_Model\in\gtp32_45.agg`.
 
+* Remark 1 :*The paper's runs are the V34 generation of October 2026 (52 membership processes and 5 one-deviation tests, `4_DB\V34_runs_2026-10-27.txt`).*
+* Remark 2: All **input data and output results** related to the whole *The Forest Club* manuscript [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23825686.svg)](https://doi.org/10.5281/zenodo.23825686)
 
-# Trade coalitions can curb tropical deforestation: the Forest Club – Code and data
+## The pipeline in four steps
 
-This repository provides supplementary materials, data workflows, and scripts for the study:Trade coalitions can curb tropical deforestation: the Forest Club
+| Step | Script | Reads | Writes |
+|---|---|---|---|
+| 1. Border charge and baseline inputs | `0_External_data\DeDuCE_rework\zenodo_v2.1\build_deduce_tables.py` (DeDuCE v2.1 → embodied-deforestation intensities, ad valorem equivalents, and the business-as-usual clearing by region × AEZ, allocated with the HILDA+ shares); `1_Code\Calibrate_BAU_productivity.R` (productivity of the land cleared on the business-as-usual path; `generation` at the top) | DeDuCE v2.1 (Zenodo 10.5281/zenodo.18953516), `DeDuCE_rework\HILDA_v2.1_transitions_country_AEZ.csv` (HILDA+ v2.1 forest-to-agriculture conversions by country × AEZ × year, from `hilda_country_aez_tables.py` on the HILDA+ netCDF files; classes 40–45, plus 55 for Argentina), `bau_shares_override.csv` (Brazil: MapBiomas RAD 2025 deforestation by biome, 2019–2023, `mapbiomas_rad2025_by_biome.csv`, spread over the zones with the HILDA+ pattern within each biome, `HILDA_v2.1_transitions_brazil_biomes_AEZ.csv`), `2_Model\in\basedata.har`, `sets.har`, `default.prm` (the Miranda-calibrated one, from `1_Code\Miranda_calibration\`) | `DeDuCE_rework\h_table_DeDuCE.xlsx`, `tms_f_initial_shocks_DeDuCE.xlsx`, `tms_f_shocks_bilateral_AVE_*.csv`, `bau_deforestation.xlsx`; `DeDuCE_rework\bau_afeall_eta0.66_<generation>.txt` |
+| 2. Two-stage baseline | `1_Code\Baseline_2stage.R` (`generation` at the top) | `DeDuCE_rework\bau_deforestation.xlsx` (business-as-usual clearing by cell), `eudr_cut_shares.xlsx` (the EUDR as an import cut by origin), `bau_afeall_eta0.66_<generation>.txt` | `3_Output\Baseline_2stage_bau5_eta0.66_<generation>\A_bau\` (Stage A: the clearing), `B_eudr\` (Stage B: the EU alone under the EUDR — the baseline of every result), `EUDR_effect_by_region.txt`, `EUDR_effect_by_cell.txt` |
+| 3. The membership game | `1_Code\Run_V34_all.R` (the programme of runs, one block per question of the paper; `generation`, `Y`, `X` at the top) driving `1_Code\CGE_Game_Theory_GTAPAEZ_all_V34.R` (one run: rounds of solves, the decision rule, the one-deviation tests); `1_Code\run_chain_v34.bat` + `run_step.R` run steps 1–3 unattended in sequence (`3_Output\chain_v34_log.txt`) | step 2, `DeDuCE_rework\tms_f_initial_shocks_DeDuCE.xlsx` and `tms_f_shocks_bilateral_<sheet>.csv`, `0_External_data\GDP_values.xlsx` (the 0.1 %-of-GDP safeguard) | `3_Output\Friction\forest_<run tag>_<generation>\Scenario_D\` (every solve of the run), `4_DB\Database_GTAPAEZ_all_results_2024_agg_forest_<run tag>_<generation>.csv` (one row per region and round), `4_DB\Stability_Friction_forest_<run tag>_<generation>.txt` (one-deviation tests), `4_DB\<GENERATION>_runs_<date>.txt` (one line per run), `3_Output\overnight_log.txt` |
+| 4. Figures, tables and numbers of the text | `5_Figures\make_all.py`: `common\extract_*.py` extract the runs into `5_Figures\data\`, then one script per figure in `Fig_2_script\` … `ExtData_Fig_2_script\`, `Tables_script\`, `SI_script\` (`si_extract.R`, `si_figures.py`) | step 3, `2_Model\in\basedata.har` (SI and Fig. 5 extraction) | `5_Figures\<Figure>_Output\`: png, pdf and source-data csv of the paper's Fig. 1 (`Fig_3_Output\Fig3_plane`, the instrument plane), Fig. 2 (`Fig_2_Output`, forest), Fig. 3 (`Fig_4_Output`, welfare), Fig. 4 (`Fig_5_Output`, Brazil's zones), Extended Data Figs 1–2, Tables 1–3 and the SI's Figs S7–S10 and Tables S9–S12 (the SI figure files keep the pipeline's numbers `Fig_S7`, `Fig_S9`, `Fig_S10`, `Fig_S11`, one ahead of the SI's from S8 on); the suitability check of SI 7.6 (Fig. S11, `SI_Output\Figure_S18_V34.png`, `Zabel_suitability_V34.xlsx`) is not part of the pipeline (below) (`5_Figures\README.md`) |
 
-Etienne Berthet<sup>1,2,3,*</sup>, Ilaria Fusacchia<sup>4</sup>, Alessandro Antimiani<sup>5</sup>, Jennifer Morris<sup>1</sup>, and Alexis Laurent<sup>2,3</sup>
+A new generation of runs (V34 = `"v34"`, October 2026) chains through file names: 
+* `python build_deduce_tables.py` in `zenodo_v2.1\` rewrites the DeDuCE tables and `bau_deforestation.xlsx`; 
+* `Calibrate_BAU_productivity.R` with `generation <- "v34"` writes `bau_afeall_eta0.66_v34.txt`; 
+* `Baseline_2stage.R` with `generation <- "v34"` solves stages A and B into `Baseline_2stage_bau5_eta0.66_v34\`; 
+* `Run_V34_all.R` with `generation <- "v34"` runs the programme, tags `_v34`; 
+* `set FOREST_CLUB_VERSION=_wnet_v34` then `python 5_Figures\make_all.py`. 
+The Miranda calibration of the land-supply elasticities (`1_Code\Miranda_calibration\`, which installs `2_Model\in\default.prm`) does not depend on the clearing and is not rerun. Each script checks that its input exists and stops with the name of the script to run first.
 
-<sup>1</sup> MIT Center for Sustainability Science and Strategy, Massachusetts Institute of Technology; Cambridge, MA 02139, USA  
-<sup>2</sup> Department of Environmental and Resource Engineering, Technical University of Denmark; Kongens Lyngby, 2800, Denmark  
-<sup>3</sup> Center for Absolute Sustainability, Technical University of Denmark; Kongens Lyngby, 2800, Denmark  
-<sup>4</sup> Department for Humanistic, Scientific, and Social Innovation, University of Basilicata; Potenza, 85100, Italy  
-<sup>5</sup> Directorate-General for Trade, European Commission; Brussels, 1000, Belgium
+Launch of step 3: open `1_Code\Run_V34_all.R` in RStudio and run it (Ctrl+Alt+R); the script finds the model folder from its own location. A run whose csv already exists is reused, so the programme can be relaunched after an interruption and continues where it stopped. The blocks are listed in the header of the runner: the grid first (grid_core, grid_penalty, grid_surcharge, grid_floor, grid_floor_penalty, grid_seeds, grid_combined), then what hangs on the headline (lockouts, stability, japan, brackets). With `Y <- "auto"` and `X <- "auto"` the headline penalty and surcharges are read from the grid results when the first of those blocks starts (the lowest grid value at which the club / the coalition forms; the surcharge at which Brazil joins on its own first-round loss), written to `4_DB\<GENERATION>_runs_<date>.txt` as `== headline: Y = … | X = …`, which the figure pipeline reads; each block takes 1–6 hours at 5–10 minutes per solve, the whole programme about 45 hours.
 
-*Corresponding author: etber@mit.edu
+## Reading a run tag
 
+`forest_pha3000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34`
 
----
+| piece | meaning |
+|---|---|
+| `pha3000` / `tau1.5charged` | footprint surcharge in USD per hectare deforested / flat penalty in % on the 17 charged commodities (both can be present: both instruments) |
+| `seedEU`, `seedEUChina`, `seedEUMercosur`, `seedEUMercosur5`, `seedEUMercosurChina` | the starting coalition |
+| `seedSmin…_fixed` | a one-deviation stability test of a converged coalition, dynamics off, every member (the EU excepted) out alone and every outsider in alone: `Sminclub125`, `Smincoalition2500`, `Smincoalition4000`, `Smineuchinaclub112`, `Sminmercosur0` (V34's `…japan` and `…outs` supplements no longer exist: the V34 tests cover every outsider; the `japan` block of the runner found nothing to test, Japan being a member of the 1.25 % club) |
+| `lockbrasil`, `lockus`, `lockus-china`, `lockindonesia` | a region treated as an outsider at every decision |
+| `fr0.001trade` | switching cost = 0.1 % of the region's trade in the charged commodities (`0.0005`, `0.002`: the sensitivity runs) |
+| `bau5_eta0.66` | business-as-usual clearing over five years, productivity of the cleared land 0.66 |
+| `sgb`, `jrexp`, `frombau`, `eudrkeep`, `pinall`, `wnet` | safeguard on the baseline; experience decision rule; solves start from the Stage A data; the EUDR stays on non-members; members pinned at zero clearing in every zone; welfare net of the forest-land wedge term |
+| `_v34` | the generation of runs: V34, 23 October 2026, the paper's (the business-as-usual clearing allocated to the AEZs with the HILDA+ shares, Brazil's with MapBiomas) |
 
-## Overview
+## Folder map
 
+| Folder | What it holds | In git? |
+|---|---|---|
+| `0_External_data\DeDuCE_rework\` | the border-charge tables and their construction (`README.md` inside), the EUDR cut shares, the business-as-usual clearing (`bau_deforestation.xlsx`, with the HILDA+ tables `HILDA_v2.1_transitions_country_AEZ.csv` and `HILDA_v2.1_transitions_brazil_biomes_AEZ.csv`, the script that extracts them, `hilda_country_aez_tables.py`, the MapBiomas RAD 2025 totals by biome and state and the override table `bau_shares_override.csv`), the productivity calibration (`bau_afeall_eta0.66_v34.txt`); `zenodo_v2.1\` the DeDuCE source file and `build_deduce_tables.py` (needs HARPY, GEMPACK's .har reader: a copy of the repository in a folder named `HARPY-master` next to the script works) | yes |
+| `0_External_data\GDP_values.xlsx`, `qo_values.xlsx`, `qxw_values.xlsx`, `Original_EV.xlsx` | GDP (safeguard) and three legacy inputs the game script still loads at start-up although the V34 runs do not use their content | yes |
+| `1_Code\` | the four scripts of steps 1–3, the unattended chain (`run_chain_v34.bat`, `run_step.R`) and `Miranda_calibration\` (the calibration of the land-supply elasticities to Miranda et al., SI 5.2, which writes `2_Model\in\default.prm`; `Baseline_EUDR.R` is the one-solve baseline that preceded `Baseline_2stage.R`; it calibrated the productivity shocks and is kept for that reason) | yes |
+| `2_Model\` | the GTAP-AEZ v7 model: TAB file, closure, shocks, executables, `in\` the data base and sets | TAB, CMF, sets: yes. **The GTAP Data Base (`basedata.har`, `baserate.har`, `baseview.har`, `gtapSAM.har`, `gsdf*.har`, `co2.har`, `metadata.har`, `default.prm/.pel`, `altertax.*`, `gdx.zip`, `gtapv6.zip`) is licensed and never leaves this machine**; GEMPACK solution and work files are regenerated by every solve and ignored |
+| `3_Output\Baseline_2stage_bau5_eta0.66_v34\` | the two baseline solves (`A_bau\`, `B_eudr\`); beside it `Calibrate_BAU_productivity_v34\` (the six passes of the productivity calibration), `Miranda_calibration\` and `Miranda_calibration_final\` (the land-supply calibration, `ETR1_final_decisions.csv`), `chain_v34_log.txt` | text outputs yes; `.sl4`, `.upd`, logs no |
+| `3_Output\Friction\forest_*_v34\` | the 57 runs of the paper (52 membership processes, 5 one-deviation tests), every solve | text outputs yes; solution files no (about 100 MB per run) |
+| `4_DB\` | the result tables of the 57 runs (`*_agg_*_v34.csv`, one row per region and round), the five `Stability_*_v34.txt`, the run summary `V34_runs_2026-10-27.txt` | the `_agg_` csv and the stability files yes; the ISO × AEZ csv (above GitHub's 100 MB limit) no |
+| `5_Figures\` | the figure pipeline (step 4): `common\`, `data\`, one `<Figure>_script\` and `<Figure>_Output\` pair per figure, `SI_script\`, `SI_Output\`, `SI_docx_tools\` | yes |
+| `9_Archive\` | everything that preceded V34 (model copies, old runs, old scripts, old visualisations), kept but not used — `9_Archive\README.md` | no |
 
-This repository accompanies the manuscript’s Supplementary Materials and outlines the methodologies, data workflows, and computational steps used to:
+## Requirements
 
-1. **Quantify tropical deforestation** driven by agricultural production and trade (using HILDA+ and FAO data).  
-2. **Compute consumption- and throughflow-based deforestation footprints** via a Multi-Regional Input-Output (MRIO) framework (GLORIA dataset).  
-3. **Implement and assess** a Computable General Equilibrium (CGE) model (GTAP–AEZ) for **counterfactual “Forest Club” simulations**.
-
-The aim of this README is to:
-- Provide **system requirements** and software dependencies.  
-- Give an **installation guide** (typical install times, version info).  
-- Include a **demo** (small or simulated dataset) for quick tests.  
-- Explain how to **run** the software with full data.  
-- Summarize **reproduction steps** for main results.
-
----
-
-## Project Directory Structure
-
-```text
-├── 1. Data
-│   ├── 1. HILDA data
-│   │   ├── 1. Extracting_ntcdf_data
-│   │   ├── 2. Aggregating_data
-│   │   └── 3. Split_AEZ
-│   ├── 2. FAO data
-│   │   └── 1. Production_Crops_Livestock_E_All_Data_(Normalized)
-│   ├── 3. GTAPAEZ_Deforestation_coefficient
-│   │   └── 1. GTAPAEZ_Data
-│   ├── 4. Suitability
-│   └── **README_DATA.md <-- Step 1**
-│
-├── 2. MRIO
-│   ├── GLORIA
-│   │   ├── commodity
-│   │   ├── output
-│   │   │   ├── CBA
-│   │   │   └── TBA
-│   │   └── (additional files)
-│   ├── Visualizations
-│   │   └── (additional files)
-│   └── **README_MRIO.md <-- Step 2**
-│
-├── 3. CGE
-│   ├── Game_Theory_2024
-│   │   ├── 0_External_data
-│   │   ├── 1_Code
-│   │   ├── 2_Model.zip (experiment files, .prm parameter files, etc.)
-│   │   ├── 3_Output
-│   │   ├── 4_DB
-│   │   └── 5_Visualisation
-│   ├── 5. Tariff_SIM
-│   └── **README_CGE.md <-- Step 3**
-│
-└── README.md  <-- You are here!
-```
-
-## Key Directories
-
-- **`1. Data`**  
-  Raw and processed input data:  
-  - **HILDA+**: netCDFs, CSV extractions, and shapefiles.  
-  - **FAO**: agro ecological zone/agricultural production/livestock production.
-
-- **`2. MRIO`**   
-  - Code to compute the CBA/TBA results within the MRIO GLORIA.
-
-- **`3. CGE`**  
-  CGE model files, parameter sets, and results for the Forest Club simulations.
----
-
-## Getting Started
-
-### 1. Clone or Download
-Clone the repository directly onto your C:\ drive to avoid issues with file paths containing spaces. For example:
-```text
-cd C:\
-git clone https://github.com/etiennebert/forest_club.git
-```
-
-Note: Do not install it under a path like C:\Users\YourName\Documents if that includes spaces (e.g., My Documents)—this can lead to inconsistent runs or file-not-found errors.
-
-### 2. Software Requirements
-- **Operating System:**  
-  - Tested on **Windows 10** and **Windows 11** (64-bit).  
-  - Other OS (Linux, macOS) untested; minor path adjustments may be needed.
-
-- **Hardware Recommendations:**  
-  - **16 GB RAM** or more for processing large datasets.  
-  - No specialized GPU required. HPC resources recommended for very large runs.
-
-- **Software Dependencies & Versions:**
-  1. **Python 3.8+**  
-     - Libraries: `xarray`, `numpy`, `pandas`, `scipy`, `netCDF4`  
-     - Installation via `pip` or `conda`.  
-  2. **R 4.0+**  
-     - Package: `HARr` (for `.har` output parsing from GEMPACK).  
-  3. **Alteryx Designer 2022.3** (optional)  
-     - Required to run `.yxmd` workflows.  
-  4. **GEMPACK Version 12.1** (with Fortran compiler)  
-     - Runs the GTAP–AEZ model simulations.  
-  5. **Tableau** (optional)  
-     - For `.twb` visualization workbooks.
-
----
-
-## Step 1: Data Preparation
-
-Main Goals: 
-
-1. **Extract HILDA+**  
-   - Acquire **HILDA+ v2.1** data (`.nc` files).  
-   - Python code `1_HILDA_code_extraction.py` to filter tropical regions of interest and relevant LULC codes.  
-   - Convert to CSV or geographical format via Alteryx format for further analysis.
-
-2. **Process FAO**  
-   - Raw FAO files about production.  
-   - `A_FAO_annual_evolution_per_GLORIA_sector.yxmd` (Alteryx) aggregates yearly incremental changes and smooths fluctuations.  
-   - Merge with HILDA+ results to get sector-level deforestation intensities.
-
-3. **Prepare the HILDA+ and FAO data processed**
-   - Prepare the processed data for the MRIO GLORIA 
-
-The various steps of this stage are detailed in the document **README_DATA.md <-- Step 1**
-
----
-
-## Step 2: Running the MRIO analysis
-
-1. **Consumption-Based Accounting (CBA)**  
-   - `CBA_TBA_script.py` builds the Leontief inverse and multiplies by deforestation intensities and Final Demand.  
-   - Outputs stored in `./2. MRIO/GLORIA/output/CBA`.
-
-2. **Throughflow-Based Accounting (TBA)**  
-   - Also handled by `CBA_TBA_script.py`, calculate the "throughflow" of deforestation for the different territories, using the Hypothetical Extraction Method.  
-   - Results in `./2. MRIO/GLORIA/output/TBA`.
-
-3. **Visualizations**  
-   - Alteryx workflow `1_HILDA_v2-1_CBA results.yxmd` merges final CBA results.  
-   - `CBA_Visualisation.twb` (Tableau) or other tools for charts and maps.
-
-The different steps of this stage are detailed in the document **README_MRIO.md <-- Step 2**
-
----
-
-## Step 3: GTAP–AEZ Counterfactual Analysis
-
-1. **Deforestation coefficients**  
-   - Represents the fraction of agricultural land expansion attributable to deforestation in each AEZ for each crop. It is used to guide land-use decisions in the CGE model (see SI 5.2 for additional details).
-  
-2. **Tariff Simulation**  
-   - Find tariffs needed to reduce exports (or output) by the share of deforestation (See SI 6.1).  
-
-3. **Forest Club Iterations**  
-   - The game-theory logic is in `CGE_Game_Theory_GTAPAEZ.R`.
-   - The R script runs with GEMPACK, then parse `.har` results with `HARr` in R.
-   - Possibility to adjust the thresholds in `Thresholds_GTAPAEZ_Game_theory.xlsx` (See SI table S6)   
-   - Each iteration re-runs the CGE with updated membership decisions and outputs new `.har` result files.
-
-4. **Aggregating Results**  
-   - Use Alteryx workflows `DB_GTAPAEZ_all.yxmd` and `DB_GTAPAEZ_aggregate.yxmd` to combine iteration-by-iteration data.  
-   - Key outputs include:
-     - `DB_GTAPAEZ_Forest_2024.csv` (forest area changes)
-     - `DB_GTAPAEZ_EV_2024.csv` (welfare changes)
-     - `DB_GTAPAEZ_all_results_2024_agg.csv` (aggregate iteration results).
-
-The various steps of this stage are detailed in the document **README_CGE.md <-- Step 3**
-
----
-
-## Reproduction Instructions
-
-To replicate the **key figures and tables** from the manuscript:
-
-1. **Download/Prepare Data** via Step 1.  
-2. **Run MRIO** scripts (Step 2) to generate CBA/TBA results.  
-3. **Run CGE** simulations (Step 3) for the Forest Club scenarios.  
-4. **Visualize/Analyze** outcomes with Tableau or your preferred tools.  
-
-*Note:* Large computations may require HPC time. Refer to the main text and SI for parameter settings, iteration details, and references.
-
----
-
-## License
-
-**Unless stated otherwise, this project is under the MIT License.**  
-
-You may freely use, modify, and distribute this code under MIT terms.
-
-> **Important:** HILDA+, FAO, GLORIA, GEMPACK, Alteryx, and GTAP data/tools each have **their own licenses**. Check their terms for any restrictions on commercial usage or redistribution.
-
----
-## Contact
-
-For questions, please contact the corresponding author: **etber@mit.edu**
-
-Or open an issue on GitHub if you encounter any problems or have suggestions.
-
-**Enjoy exploring the data and replicating our Forest Club analysis!**
+GEMPACK with RunGTAP 3.75 (the folder name `runGTAP375`) for the model; R ≥ 4.2 with `HARr`, `readxl`, `writexl`, `xlsx`, `dplyr`, `tidyr`, `rstudioapi`, `devtools` for steps 1–3 and the SI extraction; Python ≥ 3.10 with `numpy`, `pandas`, `matplotlib`, `geopandas`, `rasterio` (the Brazil zone map only) for step 4. Step 3 needs the GTAP Data Base in `2_Model\in\`; step 4 runs from the csv files of `4_DB\` alone (`python make_all.py --figures` redraws from the json files without the model folder).

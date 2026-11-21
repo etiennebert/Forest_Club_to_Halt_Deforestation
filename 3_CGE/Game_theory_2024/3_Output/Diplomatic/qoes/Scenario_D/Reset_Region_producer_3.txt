@@ -1,4 +1,0 @@
-"angdrc"
-"indonesia"
-"malasya"
-"peru"

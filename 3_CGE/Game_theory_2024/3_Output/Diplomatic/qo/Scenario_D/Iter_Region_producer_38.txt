@@ -1,4 +1,0 @@
-"argentina"
-"colombia"
-"ghana"
-"paraguay"

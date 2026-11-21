@@ -1,4 +1,0 @@
-"bolivia"
-"madagascar"
-"mozambique"
-"ssa"

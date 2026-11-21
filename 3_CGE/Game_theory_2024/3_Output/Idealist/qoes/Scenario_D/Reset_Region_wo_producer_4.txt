@@ -1,4 +1,0 @@
-"uruguay"
-"us"
-"latinamer"
-"restofworld"

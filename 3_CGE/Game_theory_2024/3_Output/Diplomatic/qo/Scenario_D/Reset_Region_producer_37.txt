@@ -1,8 +1,0 @@
-"angdrc"
-"argentina"
-"bolivia"
-"brasil"
-"colombia"
-"ghana"
-"indonesia"
-"malasya"

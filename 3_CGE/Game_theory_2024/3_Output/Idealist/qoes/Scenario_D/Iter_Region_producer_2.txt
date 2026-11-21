@@ -1,5 +1,0 @@
-"argentina"
-"colombia"
-"ghana"
-"malasya"
-"peru"

@@ -1,8 +1,0 @@
-"newzealand"
-"oceania"
-"japan"
-"korea"
-"us"
-"canada"
-"uk"
-"efta"

@@ -1,8 +1,0 @@
-"china"
-"japan"
-"korea"
-"us"
-"canada"
-"eu27"
-"uk"
-"efta"

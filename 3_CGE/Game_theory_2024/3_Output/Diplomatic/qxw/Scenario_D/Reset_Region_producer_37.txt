@@ -1,5 +1,0 @@
-"angdrc"
-"brasil"
-"indonesia"
-"malasya"
-"paraguay"

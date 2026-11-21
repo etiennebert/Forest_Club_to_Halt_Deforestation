@@ -1,0 +1,253 @@
+panel,configuration,tag,region,member,EV_net_MUSD_per_year,EV_gross_MUSD_per_year,EV_net_pct_GDP,stability_status,stability_gain_from_moving_MUSD,switching_cost_MUSD
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Brazil,True,864.6,917.7,0.0462,member,-1227.7,73.4
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,DRC,False,-3.7,-8.6,-0.0072,outsider,-112.6,2.0
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,South-East Asia,True,-272.8,-95.2,-0.0163,member,-486.9,104.2
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Bolivia,True,9.7,21.1,0.0237,member,-11.2,2.0
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Ivory Coast,True,141.4,652.6,0.2361,member,-137.2,6.9
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Indonesia,True,36.4,121.2,0.0033,member,-309.8,43.3
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Colombia,False,-17.5,-19.6,-0.0054,outsider,-289.0,10.8
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Nigeria,True,-21.5,310.9,-0.0045,member,-10.0,4.9
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Central Africa,False,-73.5,-78.4,-0.0756,outsider,-63.1,2.8
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,India,True,80.3,139.1,0.0028,member,-414.5,49.6
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Mexico,True,182.6,186.3,0.0144,member,-330.5,41.7
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Ghana,False,-2.6,-7.2,-0.0039,outsider,2.9,4.0
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Malaysia,True,-15.8,465.1,-0.0043,member,-159.3,25.7
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Rest of Latin America,True,264.4,269.2,0.0248,member,-359.9,46.2
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Myanmar,True,-9.4,44.2,-0.0133,member,-31.3,5.7
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Peru,True,52.5,88.5,0.023,member,-68.5,10.7
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Angola,False,-13.9,-14.2,-0.0201,outsider,-2.7,2.0
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Eastern Africa,True,62.3,76.1,0.0172,member,-131.4,17.1
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Madagascar,True,6.8,8.3,0.048,member,-7.2,2.0
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Paraguay,True,137.7,179.2,0.3632,member,-163.8,4.8
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Western Africa,True,-60.9,-55.1,-0.0518,member,-20.5,8.7
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Southern Africa,True,69.8,82.5,0.0145,member,-115.8,11.4
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Mozambique,True,-15.6,-15.3,-0.1003,member,-7.2,2.0
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Venezuela,False,-12.4,-12.4,-0.017,outsider,-12.4,2.0
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,United States,True,-804.1,-797.3,-0.0038,member,-1049.9,195.7
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,EU,True,-1320.0,-1316.4,-0.0084,,,
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,China,True,-1011.6,-1008.1,-0.0069,member,-587.7,214.9
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Japan,True,-375.4,-375.4,-0.0073,member,-31.4,39.5
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Middle East,True,-536.0,-535.9,-0.0153,member,-152.7,82.8
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,United Kingdom,True,-335.5,-335.5,-0.0117,member,-193.0,48.1
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Canada,True,-94.0,-93.1,-0.0054,member,-400.4,45.6
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Russia,True,-194.2,-194.1,-0.0115,member,-160.4,35.8
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Korea,True,-168.9,-168.9,-0.0102,member,-47.2,24.6
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Oceania,True,98.0,112.5,0.0068,member,-346.2,35.9
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,EFTA,True,-117.9,-117.9,-0.0102,member,-56.3,23.4
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,South Asia,True,-80.4,-59.5,-0.0098,member,-127.2,28.3
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,North Africa,True,-207.1,-207.2,-0.028,member,-111.8,39.0
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Rest of world,True,155.1,155.5,0.023,member,-379.1,46.0
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Argentina,True,291.0,296.1,0.065,member,-432.7,36.9
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,New Zealand,True,-6.2,-6.0,-0.0029,member,-264.2,21.7
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Rest of East Asia,True,-53.0,-53.5,-0.064,member,-17.6,12.3
+a/b/c,EU alone penalty 1.25%,pha0_tau1.25charged_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Uruguay,True,15.6,15.7,0.0252,member,-70.3,5.0
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Brazil,True,781.5,836.4,0.0417,member,-1243.3,73.4
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,DRC,False,-16.1,34.8,-0.0312,outsider,-98.9,2.0
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,South-East Asia,False,-147.2,-173.7,-0.0088,outsider,-100.3,104.2
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Bolivia,True,9.6,21.0,0.0234,member,-41.6,2.0
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Ivory Coast,True,125.9,637.6,0.2101,member,-393.8,6.9
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Indonesia,True,62.3,151.9,0.0056,member,-141.3,43.3
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Colombia,False,-14.5,-16.2,-0.0045,outsider,-304.5,10.8
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Nigeria,False,-20.5,-23.9,-0.0043,outsider,-0.9,4.9
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Central Africa,False,-50.8,-52.1,-0.0523,outsider,-52.1,2.8
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,India,True,108.4,168.4,0.0038,member,-210.9,49.6
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Mexico,True,148.0,151.9,0.0117,member,-233.4,41.7
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Ghana,True,-4.4,96.4,-0.0064,member,-45.7,4.0
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Malaysia,True,13.6,502.3,0.0037,member,-93.6,25.7
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Rest of Latin America,True,199.3,204.8,0.0187,member,-53.3,46.2
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Myanmar,True,-12.1,42.4,-0.0171,member,-9.7,5.7
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Peru,True,43.7,80.2,0.0191,member,-107.3,10.7
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Angola,False,-8.7,-8.8,-0.0126,outsider,-2.7,2.0
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Eastern Africa,True,45.4,59.9,0.0125,member,-2.6,17.1
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Madagascar,True,4.8,6.4,0.0339,member,2.7,2.0
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Paraguay,True,131.0,172.6,0.3454,member,-203.7,4.8
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Western Africa,False,-36.5,-38.2,-0.0311,outsider,-7.7,8.7
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Southern Africa,True,68.3,81.5,0.0142,member,-67.4,11.4
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Mozambique,True,-10.2,-9.9,-0.066,member,-4.5,2.0
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Venezuela,False,-9.3,-9.4,-0.0128,outsider,-12.4,2.0
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,United States,True,-626.2,-619.4,-0.0029,member,-49.9,195.7
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,EU,True,-967.8,-965.7,-0.0062,,,
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,China,True,-809.5,-804.6,-0.0055,member,-117.2,214.9
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Japan,False,-277.3,-277.3,-0.0054,outsider,9.4,39.5
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Middle East,False,-403.0,-403.2,-0.0115,outsider,9.9,82.8
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,United Kingdom,False,-257.5,-257.5,-0.009,outsider,-0.8,48.1
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Canada,True,-65.9,-65.3,-0.0038,member,-50.0,45.6
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Russia,False,-131.6,-131.6,-0.0078,outsider,7.5,35.8
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Korea,False,-121.2,-121.2,-0.0073,outsider,4.5,24.6
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Oceania,False,35.8,29.6,0.0025,outsider,39.7,35.9
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,EFTA,False,-100.4,-100.5,-0.0087,outsider,0.6,23.4
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,South Asia,True,-50.6,-29.3,-0.0061,member,-49.9,28.3
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,North Africa,False,-135.3,-135.7,-0.0183,outsider,-1.0,39.0
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Rest of world,False,117.6,117.8,0.0174,outsider,7.6,46.0
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Argentina,False,111.7,111.1,0.025,outsider,135.6,36.9
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,New Zealand,True,-10.2,-10.1,-0.0048,member,-16.7,21.7
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Rest of East Asia,True,-31.0,-31.2,-0.0374,member,1.6,12.3
+a/b/c,"EU alone surcharge 4,000/ha",pha4000_tau0_eudr0_bau5_eta0.66_seedEU_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Uruguay,False,9.7,9.7,0.0156,outsider,4.9,5.0
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Brazil,True,603.1,661.2,0.0322,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,DRC,False,-1.0,-3.3,-0.0019,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,South-East Asia,False,-191.2,-208.0,-0.0114,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Bolivia,False,2.3,1.8,0.0057,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Ivory Coast,True,99.4,611.6,0.166,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Indonesia,False,-48.7,-65.0,-0.0044,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Colombia,False,14.9,13.8,0.0046,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Nigeria,True,-14.7,319.9,-0.0031,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Central Africa,False,-28.0,-29.7,-0.0288,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,India,True,128.3,190.1,0.0045,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Mexico,False,-3.9,-4.5,-0.0003,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Ghana,False,4.4,1.5,0.0064,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Malaysia,True,59.7,555.9,0.0164,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Rest of Latin America,False,-0.5,-4.4,-0.0,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Myanmar,True,-4.2,50.8,-0.006,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Peru,False,7.5,6.7,0.0033,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Angola,False,-6.6,-6.6,-0.0095,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Eastern Africa,True,32.8,48.0,0.009,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Madagascar,False,0.4,0.3,0.003,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Paraguay,True,112.7,154.7,0.2971,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Western Africa,True,-33.6,-27.4,-0.0286,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Southern Africa,False,-12.3,-13.4,-0.0026,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Mozambique,True,-3.3,-3.0,-0.0216,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Venezuela,False,-2.2,-2.2,-0.003,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,United States,False,-381.9,-385.1,-0.0018,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,EU,True,-320.1,-319.1,-0.002,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,China,False,-592.1,-597.8,-0.004,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Japan,True,-89.9,-89.9,-0.0018,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Middle East,True,-192.5,-192.6,-0.0055,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,United Kingdom,True,-117.5,-117.5,-0.0041,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Canada,False,-74.6,-74.6,-0.0043,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Russia,True,-58.1,-58.1,-0.0034,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Korea,True,-82.3,-82.3,-0.005,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Oceania,False,-45.0,-48.1,-0.0031,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,EFTA,False,-98.4,-98.4,-0.0085,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,South Asia,True,9.9,31.6,0.0012,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,North Africa,True,-74.9,-75.1,-0.0101,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Rest of world,True,110.1,110.3,0.0163,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Argentina,False,6.4,6.2,0.0014,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,New Zealand,True,-0.8,-0.7,-0.0004,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Rest of East Asia,True,-2.7,-2.8,-0.0033,,,
+b,EU + China penalty 0.75%,pha0_tau0.75charged_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Uruguay,True,8.2,8.2,0.0133,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Brazil,True,516.9,576.6,0.0276,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,DRC,False,-2.8,2.2,-0.0054,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,South-East Asia,False,-88.6,-103.5,-0.0053,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Bolivia,False,1.1,0.8,0.0028,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Ivory Coast,True,87.5,600.3,0.1461,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Indonesia,False,-4.0,-19.3,-0.0004,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Colombia,False,15.2,14.3,0.0047,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Nigeria,True,-16.0,319.2,-0.0034,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Central Africa,False,-21.9,-23.0,-0.0225,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,India,False,-53.5,-63.7,-0.0019,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Mexico,False,-2.7,-3.3,-0.0002,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Ghana,False,-4.4,-5.8,-0.0064,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Malaysia,True,26.3,526.8,0.0072,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Rest of Latin America,False,46.8,43.6,0.0044,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Myanmar,False,0.3,-0.8,0.0004,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Peru,False,0.2,-0.4,0.0001,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Angola,False,-5.2,-5.3,-0.0075,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Eastern Africa,False,23.9,21.6,0.0066,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Madagascar,False,3.4,3.3,0.024,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Paraguay,True,107.5,149.7,0.2835,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Western Africa,False,-10.9,-11.8,-0.0093,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Southern Africa,False,2.0,0.8,0.0004,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Mozambique,False,-1.7,-1.8,-0.0111,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Venezuela,False,-2.7,-2.8,-0.0038,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,United States,False,-129.9,-132.9,-0.0006,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,EU,True,-363.3,-362.8,-0.0023,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,China,False,-514.7,-519.6,-0.0035,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Japan,False,-32.2,-32.2,-0.0006,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Middle East,True,-158.3,-158.3,-0.0045,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,United Kingdom,True,-70.3,-70.3,-0.0025,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Canada,False,-35.7,-35.7,-0.002,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Russia,False,-57.9,-57.9,-0.0034,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Korea,True,-43.2,-43.2,-0.0026,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Oceania,False,5.5,2.6,0.0004,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,EFTA,True,-34.9,-34.9,-0.003,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,South Asia,True,0.4,22.9,0.0,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,North Africa,True,-67.1,-67.2,-0.0091,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Rest of world,False,47.8,47.9,0.0071,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Argentina,False,77.9,77.6,0.0174,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,New Zealand,False,-15.2,-15.2,-0.0071,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Rest of East Asia,True,-1.9,-1.9,-0.0023,,,
+b,"EU + China surcharge 1,000/ha",pha1000_tau0_eudr0_bau5_eta0.66_seedEUChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Uruguay,False,5.0,5.0,0.008,,,
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Brazil,True,526.1,587.0,0.0281,member,-474.5,73.4
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,DRC,False,-0.6,-2.0,-0.0012,outsider,-113.1,2.0
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,South-East Asia,False,-32.1,-35.8,-0.0019,outsider,-239.8,104.2
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Bolivia,False,2.8,2.3,0.007,outsider,3.5,2.0
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Ivory Coast,False,19.3,16.6,0.0322,outsider,65.6,6.9
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Indonesia,False,-3.9,-6.5,-0.0004,outsider,34.3,43.3
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Colombia,False,14.5,13.9,0.0045,outsider,-361.6,10.8
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Nigeria,False,-7.0,-7.8,-0.0015,outsider,-4.1,4.9
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Central Africa,False,-4.2,-4.7,-0.0043,outsider,-72.4,2.8
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,India,False,-16.2,-19.1,-0.0006,outsider,179.6,49.6
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Mexico,False,9.2,8.7,0.0007,outsider,61.1,41.7
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Ghana,False,6.9,6.0,0.0101,outsider,-28.7,4.0
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Malaysia,False,-9.5,-12.1,-0.0026,outsider,40.0,25.7
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Rest of Latin America,False,55.0,53.4,0.0052,outsider,-24.2,46.2
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Myanmar,False,3.1,2.6,0.0044,outsider,-17.7,5.7
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Peru,False,10.7,10.1,0.0047,outsider,-8.1,10.7
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Angola,False,-3.4,-3.4,-0.0049,outsider,-2.6,2.0
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Eastern Africa,False,23.1,22.1,0.0064,outsider,-6.8,17.1
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Madagascar,False,2.6,2.6,0.0187,outsider,-4.9,2.0
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Paraguay,True,105.3,147.5,0.2776,member,-92.0,4.8
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Western Africa,False,-1.8,-2.1,-0.0015,outsider,-19.3,8.7
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Southern Africa,False,-1.4,-2.1,-0.0003,outsider,56.3,11.4
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Mozambique,False,0.4,0.3,0.0028,outsider,-5.3,2.0
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Venezuela,False,-5.8,-5.8,-0.0079,outsider,-11.9,2.0
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,United States,False,10.7,9.1,0.0001,outsider,-4.8,195.7
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,EU,True,-291.0,-290.9,-0.0019,,,
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,China,True,-478.8,-470.8,-0.0033,member,-2.1,214.9
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Japan,False,-160.6,-160.6,-0.0031,outsider,1.5,39.5
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Middle East,True,-174.1,-174.1,-0.005,member,0.1,82.8
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,United Kingdom,True,-67.5,-67.5,-0.0024,member,-0.1,48.1
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Canada,False,-6.0,-6.0,-0.0003,outsider,10.3,45.6
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Russia,False,-41.6,-41.6,-0.0025,outsider,1.4,35.8
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Korea,True,-79.2,-79.2,-0.0048,member,-0.4,24.6
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Oceania,False,22.7,21.5,0.0016,outsider,8.5,35.9
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,EFTA,True,-34.2,-34.3,-0.003,member,-0.6,23.4
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,South Asia,False,-26.7,-27.4,-0.0033,outsider,36.1,28.3
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,North Africa,True,-69.0,-69.1,-0.0093,member,-0.0,39.0
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Rest of world,False,45.0,45.1,0.0067,outsider,0.8,46.0
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Argentina,True,88.0,93.6,0.0197,member,-17.6,36.9
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,New Zealand,False,7.3,7.3,0.0034,outsider,3.2,21.7
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Rest of East Asia,True,-23.5,-23.5,-0.0284,member,0.2,12.3
+b,EU + Mercosur no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosur_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Uruguay,True,7.8,7.8,0.0126,member,0.2,5.0
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Brazil,True,495.4,556.6,0.0264,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,DRC,False,-0.5,-1.9,-0.0011,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,South-East Asia,False,-38.1,-42.3,-0.0023,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Bolivia,False,2.8,2.3,0.0069,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Ivory Coast,False,18.7,16.2,0.0312,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Indonesia,False,-3.9,-6.4,-0.0004,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Colombia,False,13.6,13.0,0.0042,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Nigeria,True,-9.8,326.1,-0.0021,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Central Africa,False,-5.2,-5.7,-0.0053,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,India,False,-18.0,-21.1,-0.0006,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Mexico,False,8.3,7.9,0.0007,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Ghana,False,5.9,5.1,0.0086,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Malaysia,False,-6.5,-8.8,-0.0018,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Rest of Latin America,False,46.2,44.7,0.0043,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Myanmar,False,2.3,1.9,0.0032,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Peru,False,9.1,8.6,0.004,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Angola,False,-3.5,-3.5,-0.0051,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Eastern Africa,False,22.0,21.1,0.0061,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Madagascar,False,2.6,2.5,0.0183,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Paraguay,True,104.4,146.7,0.2753,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Western Africa,False,-0.6,-1.0,-0.0005,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Southern Africa,False,0.8,0.2,0.0002,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Mozambique,False,1.3,1.3,0.0086,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Venezuela,False,-4.8,-4.8,-0.0065,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,United States,False,28.4,27.0,0.0001,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,EU,True,-238.8,-238.7,-0.0015,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,China,False,-479.9,-481.9,-0.0033,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Japan,True,-125.6,-125.6,-0.0025,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Middle East,True,-157.4,-157.5,-0.0045,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,United Kingdom,True,-55.2,-55.2,-0.0019,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Canada,False,-3.1,-3.1,-0.0002,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Russia,True,-30.9,-30.9,-0.0018,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Korea,True,-64.0,-64.0,-0.0039,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Oceania,False,17.5,16.7,0.0012,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,EFTA,True,-27.2,-27.3,-0.0024,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,South Asia,False,-25.6,-26.3,-0.0031,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,North Africa,True,-64.5,-64.5,-0.0087,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Rest of world,False,43.0,43.0,0.0064,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Argentina,True,80.3,85.9,0.0179,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,New Zealand,False,10.8,10.8,0.0051,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Rest of East Asia,True,-20.2,-20.3,-0.0244,,,
+b,EU + Mercosur + China no charge,pha0_tau0_eudr0_bau5_eta0.66_seedEUMercosurChina_outfree_fr0.001trade_sgb_jrexp_frombau_eudrkeep_pinall_wnet_v34,Uruguay,True,6.9,6.9,0.0111,,,
